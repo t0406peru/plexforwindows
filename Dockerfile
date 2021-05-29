@@ -4,7 +4,7 @@
 # Pulls Windows Server, Plex, and makes them work together.
 
 # Indicates that the windowsservercore image will be used as the base image.
-FROM microsoft/windowsservercore
+FROM mcr.microsoft.com/windows/servercore:ltsc2016
 
 # Metadata indicating an image maintainer.
 MAINTAINER taylortwbrown
